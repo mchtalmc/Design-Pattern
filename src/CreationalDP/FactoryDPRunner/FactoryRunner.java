@@ -9,7 +9,8 @@ public class FactoryRunner {
 
         //Shape shapee= new Square("kare,3,3"); // Erisemez.
 
-
+        //Icerigini bilinmemesi ya da bilinmedigi durumlarda istenilen objenin ismi ile obje uretilmesi icin kullanilir
+        //Obje icin gerekli bilgilere sahip olunmasina gerek yok.
         Shape shape= ShapeFactory.getShape("kare");
         shape.draw();
     }
