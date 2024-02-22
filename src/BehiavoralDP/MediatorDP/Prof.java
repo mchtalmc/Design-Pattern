@@ -5,6 +5,11 @@ public class Prof implements Actor{
     public String name;
     public Dispatcher dispatcher;
 
+    public Prof(String name, Dispatcher dispatcher) {
+        this.name = name;
+        this.dispatcher = dispatcher;
+    }
+
     @Override
     public void receiveMessage(String message) {
         System.out.println(this.name + message +" 'i" +"Cevapliyor");
