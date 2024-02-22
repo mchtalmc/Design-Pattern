@@ -8,10 +8,10 @@ public class Runner {
 
         ProxyImageClass proxy= new ProxyImageClass("C:\\PATH");
         //Obje olusturdum fakat RealImage'de oldugu gibi resim yukleme islemi gerceklestirmedim ve islemci , memory'de yer kaplamadim
-        //RealImage objesinin yaptigi islemleri yapmak istersem , RealImageClass'i gibi davranir
+        //RealImage objesinin yaptigi islemleri yapmak istersem , RealImageClass objesini olusturur.
 
         proxy.showImage();
-        //RealImage' class'inin methodlarini kullanirsam , proxy gercek obje gibi davranmaya baslar.
+        //RealImage' class'inin methodlarini kullanirsam , proxy gercek obje olusturur.
 
     }
 }
